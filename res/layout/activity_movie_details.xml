@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.interview.movie_box.MovieDetails" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/nametxt"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Cast"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/casttxt"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Fiction"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_below="@+id/fictiontxt"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Genre"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView9"
+                android:layout_below="@+id/yeartxt"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Score"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView7"
+                android:layout_below="@+id/genretxt"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Year"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/casttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/nametxt"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="5dp"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceLargeInverse"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/scoretxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/yeartxt"
+                android:layout_below="@+id/textView11"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceLargeInverse"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:background="#424242" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_below="@+id/textView5"
+                android:background="#424242" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Name"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignLeft="@+id/textView9"
+                android:layout_below="@+id/textView9"
+                android:background="#424242" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignLeft="@+id/textView7"
+                android:layout_below="@+id/textView7"
+                android:background="#424242" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignLeft="@+id/textView11"
+                android:layout_below="@+id/textView11"
+                android:background="#424242" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:background="#424242" />
+
+            <TextView
+                android:id="@+id/nametxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view1"
+                android:layout_toRightOf="@+id/textView5"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceLargeInverse"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/fictiontxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/casttxt"
+                android:layout_below="@+id/view2"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceLargeInverse"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/genretxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/fictiontxt"
+                android:layout_below="@+id/view3"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceLargeInverse"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/yeartxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view4"
+                android:layout_toRightOf="@+id/textView5"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceLargeInverse"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

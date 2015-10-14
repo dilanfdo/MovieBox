@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Movie Box</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view_movies">MOVIES</string>
+    <string name="title_activity_add_movies">ADD NEW MOVIES</string>
+    <string name="title_activity_genres_dashboard">GENRES</string>
+    <string name="title_activity_movie_details">MOVIE DETAILS</string>
+    <string name="add">ADD</string>
+    <string name="remove">REMOVE</string>
+    <string name="action_done">DONE</string>
+
+</resources>
